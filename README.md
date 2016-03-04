@@ -16,6 +16,16 @@
 
 Πώς βρίσκουμε τα k-δικτυώματα ενός γράφου; Ένας τρόπος είναι να ακολουθήσουμε τον παρακάτω αλγόριθμο:
 
+```
+crummy_code_to_reduce_graph_to_k_truss(g, k)
+    until no change do
+    for each edge e = (a,b) in g:
+    if (size(intersection(neighbours(a)  neighbours(b)) < k  2 ):
+        remove e from g
+
+ return remaining edges for each node 
+```
+
 ## Απαιτήσεις Προγράμματος
 
 Κάθε φοιτητής θα εργαστεί στο προσωπικό του αποθετήριο στο GitHub. Για να αξιολογηθεί μια εργασία θα πρέπει να πληροί τις παρακάτω προϋποθέσεις:
