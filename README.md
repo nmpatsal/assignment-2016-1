@@ -89,7 +89,7 @@ python ctp.py graph_file start_node destination_node [-r] [-b blocked_edges_file
 ```
 python ctp.py powerlaw_cluster_graph.txt 5
 ```
-με τo αρχείo powerlaw_cluster_graph.txt](powerlaw_cluster_graph.txt), η έξοδος θα είναι:
+με τo αρχείo [powerlaw_cluster_graph.txt](powerlaw_cluster_graph.txt), η έξοδος θα είναι:
 ```
 (2, 5, 8, 9, 13, 14)
 (2, 5, 8, 13, 14)
