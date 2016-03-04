@@ -27,7 +27,7 @@ crummy_code_to_reduce_graph_to_k_truss(g, k)
     return remaining edges for each node 
 ```
 
-Στον παραπάνω αλγόριθμο, η συνάρτηση `neighbours(a)` μας δίνει τους γείτονες του κόβμου `a`, η συνάρτηση `intersection(s1, s2)` βρίσκει την τομή των συνόλων `s1` και `s2`, και η συνάρτηση `size(s)` βρίσκει το μέγεθος του συνόλου `s`. Ο αλγόριθμος αυτός δεν είναι ιδιαίτερα καλός, υπάρχουν πιο αποτελεσματικοί, αλλά μας κάνει στο πλαίσιο της εργασίας.
+Στον παραπάνω αλγόριθμο, `g` είναι ο γράφος και `k` είναι το μέγεθος των δικτυωμάτων που ψάχνουμε. Η συνάρτηση `neighbours(a)` μας δίνει τους γείτονες του κόμβου `a`, η συνάρτηση `intersection(s1, s2)` βρίσκει την τομή των συνόλων `s1` και `s2`, και η συνάρτηση `size(s)` βρίσκει το μέγεθος του συνόλου `s`. Ο αλγόριθμος αυτός δεν είναι ιδιαίτερα καλός, υπάρχουν πιο αποτελεσματικοί, αλλά μας κάνει στο πλαίσιο της εργασίας.
 
 ## Απαιτήσεις Προγράμματος
 
@@ -103,3 +103,9 @@ python trusses.py powerlaw_cluster_graph.txt 5
 Επαναλαμβάνουμε ότι η μορφή της εξόδου θα πρέπει να είναι ακριβώς όπως η παραπάνω για να μπορεί να αξιολογηθεί η εργασία.
 
 Καλή Επιτυχία.
+
+# Περισσότερες Πληροφορίες
+
+* Jonathan Cohen, Trusses: Cohesive Subgraphs for Social Network Analysis, 2008 (http://www.csee.ogi.edu/~zak/cs506-pslc/trusses.pdf).
+* 
+* Jonathan Cohen, Graph Twiddling in a MapReduce World, Computers in Science and Engineering, Vol. 11, issue 4, pp. 29-41, July/August 2009 (http://lintool.github.io/UMD-courses/bigdata-2015-Spring/content/Cohen_2009.pdf).
