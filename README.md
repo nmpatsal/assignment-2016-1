@@ -87,6 +87,16 @@ python ctp.py graph_file start_node destination_node [-r] [-b blocked_edges_file
 
 * Αν ο χρήστης δώσει:
 ```
+python ctp.py gnp_random_graph.txt 3
+```
+με τo αρχείo [gnp_random_graph.txt](gnp_random_graph.txt), το οποίο αντιστοιχεί στην πρώτη εικόνα, η έξοδος θα είναι:
+```
+(0, 1, 9)
+(8, 10, 16)
+```
+
+* Αν ο χρήστης δώσει:
+```
 python ctp.py powerlaw_cluster_graph.txt 5
 ```
 με τo αρχείo [powerlaw_cluster_graph.txt](powerlaw_cluster_graph.txt), η έξοδος θα είναι:
