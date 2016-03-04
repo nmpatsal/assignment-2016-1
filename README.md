@@ -71,7 +71,7 @@ python trusses.py graph_file size_of_truss
 
 * Αν ο χρήστης δώσει:
 ```
-python ctp.py gnp_random_graph_1.txt 3
+python trusses.py gnp_random_graph_1.txt 3
 ```
 με τo αρχείo [gnp_random_graph_1.txt](gnp_random_graph_1.txt), το οποίο αντιστοιχεί στον πρώτο γράφο, η έξοδος θα είναι:
 ```
@@ -81,7 +81,7 @@ python ctp.py gnp_random_graph_1.txt 3
 
 * Αν ο χρήστης δώσει:
 ```
-python ctp.py gnp_random_graph_2.txt 3
+python trusses.py gnp_random_graph_2.txt 3
 ```
 με τo αρχείo [gnp_random_graph_2.txt](gnp_random_graph_2.txt), το οποίο αντιστοιχεί στο δεύτερο γράφο, η έξοδος θα είναι:
 ```
@@ -91,7 +91,7 @@ python ctp.py gnp_random_graph_2.txt 3
 
 * Αν ο χρήστης δώσει:
 ```
-python ctp.py powerlaw_cluster_graph.txt 5
+python trusses.py powerlaw_cluster_graph.txt 5
 ```
 με τo αρχείo [powerlaw_cluster_graph.txt](powerlaw_cluster_graph.txt), το οποίο αντιστοιχεί στον τρίτο γράφο, η έξοδος θα είναι:
 ```
