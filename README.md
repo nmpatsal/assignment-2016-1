@@ -19,11 +19,10 @@
 ```
 crummy_code_to_reduce_graph_to_k_truss(g, k)
     until no change do
-    for each edge e = (a,b) in g:
-    if (size(intersection(neighbours(a), neighbours(b)) < k  2:
-        remove e from g
-
- return remaining edges for each node 
+        for each edge e = (a,b) in g:
+            if (size(intersection(neighbours(a), neighbours(b)) < k  2:
+            remove e from g
+    return remaining edges for each node 
 ```
 
 Στον παραπάνω αλγόριθμο, η συνάρτηση `neighbours(a)` μας δίνει τους γείτονες του κόβμου `a`, η συνάρτηση `intersection(s1, s2)` βρίσκει την τομή των συνόλων `s1` και `s2`, και η συνάρτηση `size(s)` βρίσκει το μέγεθος του συνόλου `s`.
