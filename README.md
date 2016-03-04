@@ -87,17 +87,18 @@ python ctp.py graph_file start_node destination_node [-r] [-b blocked_edges_file
 
 * Αν ο χρήστης δώσει:
 ```
-python ctp.py grid_10_10.txt 0 99 -b blocked_10_10.txt
+python ctp.py powerlaw_cluster_graph.txt 5
 ```
-με τα αρχεία [grid_10_10.txt](grid_10_10.txt) και [blocked_10_10.txt](blocked_10_10.txt), τα οποία αντιστοιχούν στο παράδειγμα με το γράφο πλέγμα, η έξοδος θα είναι:
+με τo αρχείo powerlaw_cluster_graph.txt](powerlaw_cluster_graph.txt), η έξοδος θα είναι:
 ```
-[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 91, 81, 71, 61, 51, 52, 53, 54, 55, 56, 57, 58, 59, 69, 79, 89, 99]
-26
+(2, 5, 8, 9, 13, 14)
+(2, 5, 8, 13, 14)
+(2, 8, 9, 13, 14)
 ```
 
 * Αν ο χρήστης δώσει:
 ```
-python ctp.py grid_10_10.txt 0 99 -r -b blocked_10_10.txt
+python trusses.py powerlaw 0 99 -r -b blocked_10_10.txt
 ```
 με τα αρχεία [grid_10_10.txt](grid_10_10.txt) και [blocked_10_10.txt](blocked_10_10.txt), τα οποία αντιστοιχούν στο παράδειγμα με το γράφο πλέγμα, αλλά με τον αλγόριθμο επανατοποθέτησης, η έξοδος θα είναι:
 ```
