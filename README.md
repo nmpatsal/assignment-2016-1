@@ -81,7 +81,7 @@ python trusses.py gnp_random_graph_1.txt 3
 
 * Αν ο χρήστης δώσει:
 ```
-python trusses.py gnp_random_graph_2.txt 3
+python trusses.py gnp_random_graph_2.txt 4
 ```
 με τo αρχείo [gnp_random_graph_2.txt](gnp_random_graph_2.txt), το οποίο αντιστοιχεί στο δεύτερο γράφο, η έξοδος θα είναι:
 ```
