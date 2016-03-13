@@ -102,9 +102,9 @@ python trusses.py powerlaw_cluster_graph.txt 5
 
 * Αν ο χρήστης δώσει:
 ```
-python trusses.py barabasi_albert.txt 3
+python trusses.py barabasi_albert_graph.txt 3
 ```
-με το αρχείο [barabasi_albert.txt](barabasi_albert_graph.txt), η έξοδος θα είναι:
+με το αρχείο [barabasi_albert_graph.txt](barabasi_albert_graph.txt), η έξοδος θα είναι:
 ```
 (0, 1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 13)
 (0, 1, 3, 4, 5, 6, 9, 10)
